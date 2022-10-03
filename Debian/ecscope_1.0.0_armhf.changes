@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Mon, 03 Oct 2022 15:30:59 +0200
+Source: ecscope
+Binary: ecscope
+Architecture: source armhf
+Version: 1.0.0
+Distribution: unstable
+Urgency: medium
+Maintainer: Marian Minar <mminar7@gmail.com>
+Changed-By: Marian Minar  <mminar7@gmail.com>
+Description:
+ ecscope    - <insert up to 60 chars description>
+Changes:
+ ecscope (1.0.0) unstable; urgency=medium
+ .
+   * Initial Release.
+Checksums-Sha1:
+ 4bf9d97916e6f14face4749c802f8b786565dcf1 567 ecscope_1.0.0.dsc
+ 53e76408b27695877a5f77d345097e62dc5f9f72 2120400 ecscope_1.0.0.tar.xz
+ de6ff67b3941e79a534041f59bff106001740d0f 5224 ecscope_1.0.0_armhf.buildinfo
+ a00018fe5eb5b8e8e25eeda4295dc647471eaae5 2114864 ecscope_1.0.0_armhf.deb
+Checksums-Sha256:
+ cfb0f79d69964686fdc38bd3e7b018ef74eae64b7122a2fafa950cf87e28f742 567 ecscope_1.0.0.dsc
+ 35d6de36a7644239e4acf5388f00fd5cd9f3485946421568cb4ffd4720a78a6d 2120400 ecscope_1.0.0.tar.xz
+ 59c7c687882e66f40af4aaeb600b15d10c3a3c45a425445018543a4df340aba8 5224 ecscope_1.0.0_armhf.buildinfo
+ e7d76b5c8f3f84012b9ab059dde6cba2a68af4446f0201dd9695073075041514 2114864 ecscope_1.0.0_armhf.deb
+Files:
+ e57594bac31d3326ccfab95c60894c07 567 unknown optional ecscope_1.0.0.dsc
+ f7b986797531775b6d64536de44de7b8 2120400 unknown optional ecscope_1.0.0.tar.xz
+ 0b6c800d1312806c337273b678ebdf5f 5224 unknown optional ecscope_1.0.0_armhf.buildinfo
+ f9cae0b57e8144bb3fd23d6f85fef79a 2114864 unknown optional ecscope_1.0.0_armhf.deb

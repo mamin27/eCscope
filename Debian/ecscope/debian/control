@@ -1,0 +1,16 @@
+Source: ecscope
+Section: unknown
+Priority: optional
+Maintainer: Marian Minar <mminar7@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/ecscope
+#Vcs-Git: https://salsa.debian.org/debian/ecscope.git
+Rules-Requires-Root: no
+
+Package: ecscope
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
