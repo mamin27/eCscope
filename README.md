@@ -18,7 +18,8 @@ cd eCscope/Debian/ecscope/files/*
 
 ```sh
 cd eCscope/Debian/ecscope/
-dpkg-buildpackage
+dpkg-buildpackage -rfakeroot -Tclean
+dpkg-buildpackage -b -uc -us
 ```
 
 * Dependencies of package:
