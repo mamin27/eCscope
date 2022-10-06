@@ -10,8 +10,8 @@ Build-Depends: debhelper-compat (= 13)
 Package-List:
  ecscope deb unknown optional arch=any
 Checksums-Sha1:
- 53e76408b27695877a5f77d345097e62dc5f9f72 2120400 ecscope_1.0.0.tar.xz
+ a8c217af1e514b19b30e5666a3cefd3a566e7575 2119256 ecscope_1.0.0.tar.xz
 Checksums-Sha256:
- 35d6de36a7644239e4acf5388f00fd5cd9f3485946421568cb4ffd4720a78a6d 2120400 ecscope_1.0.0.tar.xz
+ 4ac306f2439e673fd6eecdccbdc34a1df6529b67686c7b7018d536666b72d4c7 2119256 ecscope_1.0.0.tar.xz
 Files:
- f7b986797531775b6d64536de44de7b8 2120400 ecscope_1.0.0.tar.xz
+ 80e65cfe505ffcbcd5f85935864f0c93 2119256 ecscope_1.0.0.tar.xz

@@ -11,6 +11,6 @@ Rules-Requires-Root: no
 
 Package: ecscope
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python3:Depends}
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
