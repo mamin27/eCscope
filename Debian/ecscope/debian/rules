@@ -18,6 +18,31 @@ export DH_VERBOSE = 1
 %:
 	dh $@
 
+binary:
+	mkdir -p debian/ecscope
+	mkdir -p debian/ecscope/usr/bin
+	mkdir -p debian/ecscope/share/applications
+	mkdir -p debian/ecscope/share/icons/hicolor/16x16/apps
+	mkdir -p debian/ecscope/share/icons/hicolor/24x24/apps
+	mkdir -p debian/ecscope/share/icons/hicolor/48x48/apps
+	mkdir -p debian/ecscope/share/icons/hicolor/scalable/apps
+	mkdir -p debian/ecscope/share/icons/PiXflat/16x16/apps
+	mkdir -p debian/ecscope/share/icons/PiXflat/24x24/apps
+	mkdir -p debian/ecscope/share/icons/PiXflat/32x32/apps
+	mkdir -p debian/ecscope/share/icons/PiXflat/48x48/apps
+	cp files/usr/bin/ecscope debian/ecscope/usr/bin/ecscope
+	cp files/usr/share/applications/ecscope.desktop debian/ecscope/share/applications/ecscope.desktop
+	cp files/usr/share/icons/hicolor/16x16/apps/ecscope.png debian/ecscope/share/icons/hicolor/16x16/apps/ecscope.png
+	cp files/usr/share/icons/hicolor/24x24/apps/ecscope.png debian/ecscope/share/icons/hicolor/24x24/apps/ecscope.png
+	cp files/usr/share/icons/hicolor/48x48/apps/ecscope.png debian/ecscope/share/icons/hicolor/48x48/apps/ecscope.png
+	cp files/usr/share/icons/hicolor/scalable/apps/ecscope.svg debian/ecscope/share/icons/hicolor/scalable/apps/ecscope.png
+	cp files/usr/share/icons/PiXflat/16x16/apps/ecscope.png debian/ecscope/share/icons/PiXflat/16x16/apps/ecscope.png 
+	cp files/usr/share/icons/PiXflat/24x24/apps/ecscope.png debian/ecscope/share/icons/PiXflat/24x24/apps/ecscope.png
+	cp files/usr/share/icons/PiXflat/32x32/apps/ecscope.png debian/ecscope/share/icons/PiXflat/32x32/apps/ecscope.png
+	cp files/usr/share/icons/PiXflat/48x48/apps/ecscope.png debian/ecscope/share/icons/PiXflat/48x48/apps/ecscope.png
+	dh_gencontrol
+	dh_builddeb
+
 
 # dh_make generated override targets
 # This is example for Cmake (See https://bugs.debian.org/641051 )

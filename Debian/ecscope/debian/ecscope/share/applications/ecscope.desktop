@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0.0
+Name=eCScope
+Comment=I2C Oscilloscope for INA260 Chips
+Comment[en_AU]=I2C Oscilloscope for INA260 Chips
+Comment[en_GB]=I2C Oscilloscope for INA260 Chips
+Exec=ecscope
+Icon=ecscope
+Terminal=true
+Type=Application
+Categories=Utility;
+StartupNotify=true

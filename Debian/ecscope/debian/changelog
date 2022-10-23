@@ -1,3 +1,13 @@
+ecscope (1.0.1) stable; urgency=low
+
+  * Calibration added
+  * Update Help & Support page
+  * Creage Autoload config & calibration setup files
+  * Add calibration data storing & loading
+  * Fix stability issues
+
+ -- Marian Minar  <mminar7@gmail.com>  Sun, 23 Oct 2022 16:17:59 +0200
+
 ecscope (1.0.0) unstable; urgency=medium
 
   * Initial Release.

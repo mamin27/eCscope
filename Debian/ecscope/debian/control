@@ -4,13 +4,13 @@ Priority: optional
 Maintainer: Marian Minar <mminar7@gmail.com>
 Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.5.1
-Homepage: <insert the upstream URL, if relevant>
+Homepage: https://github.com/mamin27/eCscope
 #Vcs-Browser: https://salsa.debian.org/debian/ecscope
 #Vcs-Git: https://salsa.debian.org/debian/ecscope.git
 Rules-Requires-Root: no
 
 Package: ecscope
-Architecture: any
+Architecture: armhf
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${python3:Depends}
-Description: <insert up to 60 chars description>
+Description: Oscilloscope-like application works with INA260 chips 
  <insert long description, indented with spaces>

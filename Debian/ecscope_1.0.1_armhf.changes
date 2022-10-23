@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sun, 23 Oct 2022 16:17:59 +0200
+Source: ecscope
+Binary: ecscope
+Architecture: armhf
+Version: 1.0.1
+Distribution: stable
+Urgency: low
+Maintainer: Marian Minar <mminar7@gmail.com>
+Changed-By: Marian Minar  <mminar7@gmail.com>
+Description:
+ ecscope    - Oscilloscope-like application works with INA260 chips
+Changes:
+ ecscope (1.0.1) stable; urgency=low
+ .
+   * Calibration added
+   * Update Help & Support page
+   * Creage Autoload config & calibration setup files
+   * Add calibration data storing & loading
+   * Fix stability issues
+Checksums-Sha1:
+ a94ceecd1ec9fafa61d263506882c7ea8ddadadd 5119 ecscope_1.0.1_armhf.buildinfo
+ 7ec720965af5a60702fb4e8742b45bff8ad05c9f 2136980 ecscope_1.0.1_armhf.deb
+Checksums-Sha256:
+ 9fb56448f5f1fa76c16ab4368994e23b4d4a098e299da21f2042926087ef63c3 5119 ecscope_1.0.1_armhf.buildinfo
+ 803b246c99358aa9de7399f9ca57856775d201741b18ae546056c5bf64a7debf 2136980 ecscope_1.0.1_armhf.deb
+Files:
+ 99bcf1efcdfde01f0d8b0e665d10d7c0 5119 unknown optional ecscope_1.0.1_armhf.buildinfo
+ da769a59e734ca24004c3fd6468e2c42 2136980 unknown optional ecscope_1.0.1_armhf.deb
