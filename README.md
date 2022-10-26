@@ -1,5 +1,7 @@
 # eCscope
-Debian package eCscope. 
+Debian package eCscope.
+
+## Wiki page is active! ##
 
 * test Raspbian version
 ```sh
