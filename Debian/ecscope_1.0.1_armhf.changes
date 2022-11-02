@@ -19,11 +19,11 @@ Changes:
    * Add calibration data storing & loading
    * Fix stability issues
 Checksums-Sha1:
- a94ceecd1ec9fafa61d263506882c7ea8ddadadd 5119 ecscope_1.0.1_armhf.buildinfo
- 7ec720965af5a60702fb4e8742b45bff8ad05c9f 2136980 ecscope_1.0.1_armhf.deb
+ d8d3800fd555552c2826e10c80a4bd46c2afebed 4960 ecscope_1.0.1_armhf.buildinfo
+ e2532854c991eb01754a059e6f40200b6e250ba3 2136464 ecscope_1.0.1_armhf.deb
 Checksums-Sha256:
- 9fb56448f5f1fa76c16ab4368994e23b4d4a098e299da21f2042926087ef63c3 5119 ecscope_1.0.1_armhf.buildinfo
- 803b246c99358aa9de7399f9ca57856775d201741b18ae546056c5bf64a7debf 2136980 ecscope_1.0.1_armhf.deb
+ 1c4cad27f524114571c74acbdab8b8b0eefde483bc8b412915975ddb92e0671e 4960 ecscope_1.0.1_armhf.buildinfo
+ b6af9d82e7a3152a97c9c35beeac6e49466bfd88e817fec0c3c6a8071f6fca6f 2136464 ecscope_1.0.1_armhf.deb
 Files:
- 99bcf1efcdfde01f0d8b0e665d10d7c0 5119 unknown optional ecscope_1.0.1_armhf.buildinfo
- da769a59e734ca24004c3fd6468e2c42 2136980 unknown optional ecscope_1.0.1_armhf.deb
+ de2507941d2f9d11f8e0a33057941613 4960 unknown optional ecscope_1.0.1_armhf.buildinfo
+ f2621d8d255987b532ba0090f7c0e430 2136464 unknown optional ecscope_1.0.1_armhf.deb
